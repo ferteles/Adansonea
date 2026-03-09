@@ -1,7 +1,7 @@
 import React from 'react';
 
-const imgHeroGettyImages1 = "http://localhost:3845/assets/58b6c32330faeb5e4a8396a07703ddb6d77103bf.png";
-const imgGroup = "http://localhost:3845/assets/d22257e89f714ed9db8a60fb79a9bd9416135588.svg";
+const imgHeroGettyImages1 = "/assets/58b6c32330faeb5e4a8396a07703ddb6d77103bf.png";
+const imgGroup = "/assets/d22257e89f714ed9db8a60fb79a9bd9416135588.svg";
 
 export default function Hero() {
     return (

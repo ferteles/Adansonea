@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 
-const imgGroup1 = "http://localhost:3845/assets/b5b4a9cc92c7e35a017ecdf316fdc41addf2b968.svg";
-const imgGroup2 = "http://localhost:3845/assets/f4b103284425bd45f9ca195fbf79c34448594cdc.svg";
+const imgGroup1 = "/assets/b5b4a9cc92c7e35a017ecdf316fdc41addf2b968.svg";
+const imgGroup2 = "/assets/f4b103284425bd45f9ca195fbf79c34448594cdc.svg";
 
 export default function Header() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 
-const imgCoworkersDiscussionPhoto1 = "http://localhost:3845/assets/c6b3f1e737f9780e53df2c42e250b275e88d5fe6.svg";
-const imgCoworkersDiscussionPhoto2 = "http://localhost:3845/assets/2044750e2a9ccd7df90b5e14b39b9da0b6382c2b.png";
+const imgCoworkersDiscussionPhoto1 = "/assets/c6b3f1e737f9780e53df2c42e250b275e88d5fe6.svg";
+const imgCoworkersDiscussionPhoto2 = "/assets/2044750e2a9ccd7df90b5e14b39b9da0b6382c2b.png";
 
 export default function About() {
     return (

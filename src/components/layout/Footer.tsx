@@ -1,9 +1,9 @@
 import React from 'react';
 import Link from 'next/link';
 
-const imgGroup5 = "http://localhost:3845/assets/108df02de255db2fed288b1e0ba2c39ceb665ec1.svg";
-const imgGroup6 = "http://localhost:3845/assets/03690f856508a40c68018c937f84d6ee7fc085ae.svg";
-const imgImage = "http://localhost:3845/assets/f991bb0780b1a6abfc0cccd576def4da7b45003a.png";
+const imgGroup5 = "/assets/108df02de255db2fed288b1e0ba2c39ceb665ec1.svg";
+const imgGroup6 = "/assets/03690f856508a40c68018c937f84d6ee7fc085ae.svg";
+const imgImage = "/assets/f991bb0780b1a6abfc0cccd576def4da7b45003a.png";
 
 export default function Footer() {
     return (

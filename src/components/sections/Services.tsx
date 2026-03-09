@@ -1,17 +1,17 @@
 import React from 'react';
 
-const imgRectangle30 = "http://localhost:3845/assets/a6d5052e8a6c2e5fb959eee17869b11ae18fdb20.png";
-const imgLine3 = "http://localhost:3845/assets/832a35bfdbd681bf50db31acf08f188ee2a14dd2.svg";
-const imgGroup4 = "http://localhost:3845/assets/3c49f75402ada1dc9d741c521eb89840c608b98c.svg";
-const imgArrow1 = "http://localhost:3845/assets/b7f1229dd635144ff7ffd1d66ee817413fb40495.svg";
-const imgArrow2 = "http://localhost:3845/assets/9188ed0711dddb58b37c8c1f303ffe01fbd974a2.svg";
-const imgLine4 = "http://localhost:3845/assets/7404db6fd8b5a8862713b22288bc2a76c2e2a40d.svg";
-const imgLine5 = "http://localhost:3845/assets/4454a80798db19e8322fc9e2a2586eb0c879bc07.svg";
-const imgLine6 = "http://localhost:3845/assets/9545eb265b82da3b2185eada73ed763e863e92d1.svg";
-const imgRectangle38 = "http://localhost:3845/assets/f484f38f1580fd6ffd90347392fb46e8ac85589e.svg";
-const imgLine8 = "http://localhost:3845/assets/4f701ed5ef63bcea0ee298902f85228b0300a9ee.svg";
-const imgGroup3 = "http://localhost:3845/assets/030fcfce957e70f27266fed09266da814c87e4a7.svg";
-const imgEllipse1 = "http://localhost:3845/assets/ff07b25983765e90fa16eb8e6d0d6003d9abdfed.svg";
+const imgRectangle30 = "/assets/a6d5052e8a6c2e5fb959eee17869b11ae18fdb20.png";
+const imgLine3 = "/assets/832a35bfdbd681bf50db31acf08f188ee2a14dd2.svg";
+const imgGroup4 = "/assets/3c49f75402ada1dc9d741c521eb89840c608b98c.svg";
+const imgArrow1 = "/assets/b7f1229dd635144ff7ffd1d66ee817413fb40495.svg";
+const imgArrow2 = "/assets/9188ed0711dddb58b37c8c1f303ffe01fbd974a2.svg";
+const imgLine4 = "/assets/7404db6fd8b5a8862713b22288bc2a76c2e2a40d.svg";
+const imgLine5 = "/assets/4454a80798db19e8322fc9e2a2586eb0c879bc07.svg";
+const imgLine6 = "/assets/9545eb265b82da3b2185eada73ed763e863e92d1.svg";
+const imgRectangle38 = "/assets/f484f38f1580fd6ffd90347392fb46e8ac85589e.svg";
+const imgLine8 = "/assets/4f701ed5ef63bcea0ee298902f85228b0300a9ee.svg";
+const imgGroup3 = "/assets/030fcfce957e70f27266fed09266da814c87e4a7.svg";
+const imgEllipse1 = "/assets/ff07b25983765e90fa16eb8e6d0d6003d9abdfed.svg";
 
 export default function Services() {
     return (
