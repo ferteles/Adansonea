@@ -126,17 +126,12 @@ export default function Services() {
                 <p>leadership teams</p>
             </div>
 
-            <div className="absolute h-[296px] left-[calc(75%-64px)] top-[1270px] w-[304px]">
-                <img alt="Btn bg" className="absolute block max-w-none size-full" src={imgRectangle38} />
-            </div>
-            <p className="-translate-x-1/2 absolute font-['HV_Harietta',sans-serif] font-normal leading-[22.694px] left-[calc(75%+88px)] text-[21.064px] text-center text-white top-[1401px] whitespace-nowrap z-10">
-                GET IN TOUCH
-            </p>
-            <div className="absolute h-0 left-[calc(75%+4px)] top-[1435px] w-[164px]">
-                <div className="absolute inset-[-1px_0_0_0]">
-                    <img alt="Line" className="block max-w-none size-full" src={imgLine8} />
-                </div>
-            </div>
+            <button className="absolute left-[calc(75%-64px)] top-[1270px] w-[304px] h-[296px] bg-[#003f44] flex flex-col items-center justify-center group transition-colors hover:bg-[#002f33] cursor-pointer border-none outline-none">
+                <span className="font-['HV_Harietta',sans-serif] font-normal leading-[22.694px] text-[21.064px] text-center text-white whitespace-nowrap z-10">
+                    GET IN TOUCH
+                </span>
+                <div className="h-[1px] w-[164px] bg-white mt-[11px] transition-transform group-hover:scale-x-110 origin-center"></div>
+            </button>
 
             {/* Decorative Assets connecting sections */}
             <div className="absolute h-[1199px] left-[-518px] top-[1697px] w-[2604px] pointer-events-none">

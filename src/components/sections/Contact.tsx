@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 
 export default function Contact() {
@@ -16,30 +18,41 @@ export default function Contact() {
                 <p>LinkedIn</p>
             </div>
 
-            <div className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[0px] w-[508px] z-10" data-name="Name input" />
-            <p className="absolute font-['Poppins',sans-serif] font-light leading-[32px] left-[calc(58.33%-15px)] text-[18px] text-white top-[6px] w-[354px] z-20 pointer-events-none">
-                Name
-            </p>
+            <form className="contents" onSubmit={(e) => e.preventDefault()}>
+                <input
+                    type="text"
+                    placeholder="Name"
+                    className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[0px] w-[508px] z-10 font-['Poppins',sans-serif] font-light text-[18px] text-white placeholder-white placeholder-opacity-80 px-4 py-2 border-none outline-none focus:ring-2 focus:ring-[#003f44] transition-all"
+                    aria-label="Name"
+                />
 
-            <div className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[58px] w-[508px] z-10" data-name="Email input" />
-            <p className="absolute font-['Poppins',sans-serif] font-light leading-[32px] left-[calc(58.33%-15px)] text-[18px] text-white top-[65px] w-[354px] z-20 pointer-events-none">
-                Email
-            </p>
+                <input
+                    type="email"
+                    placeholder="Email"
+                    className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[58px] w-[508px] z-10 font-['Poppins',sans-serif] font-light text-[18px] text-white placeholder-white placeholder-opacity-80 px-4 py-2 border-none outline-none focus:ring-2 focus:ring-[#003f44] transition-all"
+                    aria-label="Email"
+                />
 
-            <div className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[116px] w-[508px] z-10" data-name="Subject input" />
-            <p className="absolute font-['Poppins',sans-serif] font-light leading-[32px] left-[calc(58.33%-15px)] text-[18px] text-white top-[127px] w-[354px] z-20 pointer-events-none">
-                Subject
-            </p>
+                <input
+                    type="text"
+                    placeholder="Subject"
+                    className="absolute bg-[#668b8a] h-[43px] left-[calc(50%+85px)] top-[116px] w-[508px] z-10 font-['Poppins',sans-serif] font-light text-[18px] text-white placeholder-white placeholder-opacity-80 px-4 py-2 border-none outline-none focus:ring-2 focus:ring-[#003f44] transition-all"
+                    aria-label="Subject"
+                />
 
-            <div className="absolute bg-[#668b8a] h-[229px] left-[calc(50%+85px)] top-[174px] w-[508px] z-10" data-name="Message input" />
-            <p className="absolute font-['Poppins',sans-serif] font-light leading-[32px] left-[calc(58.33%-15px)] text-[18px] text-white top-[186px] w-[354px] z-20 pointer-events-none">
-                Message
-            </p>
+                <textarea
+                    placeholder="Message"
+                    className="absolute bg-[#668b8a] h-[229px] left-[calc(50%+85px)] top-[174px] w-[508px] z-10 font-['Poppins',sans-serif] font-light text-[18px] text-white placeholder-white placeholder-opacity-80 px-4 py-3 border-none outline-none focus:ring-2 focus:ring-[#003f44] transition-all resize-none"
+                    aria-label="Message"
+                ></textarea>
 
-            <div className="absolute bg-[#003f44] h-[43px] left-[calc(83.33%-8px)] top-[418px] w-[121px] z-10" data-name="Send button" />
-            <p className="absolute font-['Poppins',sans-serif] font-medium leading-[32px] left-[calc(91.67%-94px)] text-[#fff8f6] text-[18px] top-[423px] whitespace-nowrap z-20 pointer-events-none">
-                Send
-            </p>
+                <button
+                    type="submit"
+                    className="absolute bg-[#003f44] hover:bg-[#002f33] transition-colors h-[43px] left-[calc(83.33%-8px)] top-[418px] w-[121px] z-10 flex items-center justify-center font-['Poppins',sans-serif] font-medium text-[18px] text-[#fff8f6] cursor-pointer border-none outline-none focus:ring-2 focus:ring-offset-1 focus:ring-offset-[#f4eadc] focus:ring-[#003f44]"
+                >
+                    Send
+                </button>
+            </form>
         </section>
     );
 }
